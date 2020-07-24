@@ -3,21 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="style.css">
     <title>Labank</title>
 </head>
 <body>
     <header>
-
+        <h1 id="h1Header">Labank</h1>
+        <nav>
+            <ul class="menu-nav">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Quem Somos</li></a>
+                <a href=""><li>Nosso Time</li></a>
+                <a href=""><li>Contato</li></a>
+            </ul>
+        </nav>
     </header>
+    <main>
     <section>
 
     </section>
     <section>
-
+        <h1>Nosso Time</h1>
+     <div id="nosso-time">   
+    <figure>
+     <figcaption><p>Claudia Trevisan</p></figcaption>
+        <img src="/img/claudia.jpg">
+    </figure>    
+    <figure>
+     <figcaption><p>Luccas Candido</p></figcaption>
+        <img src="img/luccas.jpg">
+    </figure>
+    <figure>   
+     <figcaption><p>Marcela Militello</p></figcaption>
+        <img src="img/marcela.jpg">
+    </figure>
+     </div>
     </section>
-    <section class="contato">
-        <h1>Como podemos te ajudar hoje? Envie sua mensagem e logo entraremos em contato!</h1>
+    <section id="contato">
+        <h2>Como podemos te ajudar hoje?<br>Envie sua mensagem e logo entraremos em contato!</h2>
         <form>
             <label for="name">Nome</label><br>
             <input type="text" id="name" name="nome"><br>
@@ -25,11 +48,11 @@
             <input type="text" id="email" name="email"><br>
             <label for="message">Mensagem</label><br>
             <textarea id="message" name="mensagem" style="height:200px"></textarea><br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="ENVIAR">
         </form>
     </section>
+    </main>
     <footer>
-
     </footer>
 </body>
 </html>
