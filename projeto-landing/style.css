@@ -5,17 +5,32 @@
     font-family: arial;
     text-decoration: none;
 }
+
+body{
+    background-image: url(./img/logo1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 #quemsomos{
     display: flex;
     justify-content: center;
     
 }
+
 p{
-    padding-top: 100px;
+    padding-top: 120px;
     width: 50vw;
     font-weight: normal;
     text-align: justify;
 }    
+
+#logo{
+    width: 350px;
+    height: 250px;
+    margin-top: 60px;
+}
+
 header {
     background-color: #a8adb9;
     height: 10vh;
@@ -33,7 +48,6 @@ section p {
     color: white;
     font-weight: lighter;
 }
-
 
 .menu-nav {
     display: flex;
