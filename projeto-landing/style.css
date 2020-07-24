@@ -8,11 +8,20 @@
     text-decoration: none;
 }
 
+
 #nosso-time {
     display: flex;
     justify-content: space-around;
 }
   
+
+body{
+    background-image: url(./img/logo1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
 #quemsomos{
     display: flex;
     justify-content: space-around;
@@ -40,6 +49,7 @@ h1 {
 #contato {
     text-align: center;
 }
+
 
 h2 {
     padding: 30px;
@@ -84,11 +94,17 @@ input[type=text] {
   }
 
 p{
-    padding-top: 100px;
+    padding-top: 120px;
     width: 50vw;
     font-weight: bold;
     text-align: justify;
 }    
+
+#logo{
+    width: 350px;
+    height: 250px;
+    margin-top: 60px;
+}
 
 
 header {
@@ -106,14 +122,12 @@ header {
     position: fixed;
     right: 0px;
     z-index: 5;
-    
 }
 
 #h1Header {
     color:#1F325B;
     font-weight: lighter;
 }
-
 
 .menu-nav {
     display: flex;
