@@ -10,6 +10,7 @@
 .container {
     display: flex;
     justify-content: center;
+    
 }
 
 header {
@@ -18,20 +19,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: -50px;
-    -webkit-box-align: center;
-    top: 50px;
-    left: 0px;
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
-    position: fixed;
-    right: 0px;
-    z-index: 5;
-    
 }
 
-section {
-    padding: 100px;
+section p {
+    padding-top: 100px;
+    width: 50vw;
 }
 
 #h1Header {
@@ -55,6 +47,11 @@ section {
     color: white;
     font-weight: normal;
    
+}
+
+footer {
+    background-color: red;
+    height: 80px;
 }
 
 
