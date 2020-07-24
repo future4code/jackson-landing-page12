@@ -1,18 +1,21 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
+    font-family: arial;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
 }
-
-.container {
+#quemsomos{
     display: flex;
     justify-content: center;
     
 }
-
+p{
+    padding-top: 100px;
+    width: 50vw;
+    font-weight: normal;
+    text-align: justify;
+}    
 header {
     background-color: #a8adb9;
     height: 10vh;
@@ -27,7 +30,7 @@ section p {
 }
 
 #h1Header {
-    color:#1F325B;
+    color: white;
     font-weight: lighter;
 }
 
@@ -50,9 +53,50 @@ section p {
 }
 
 footer {
-    background-color: red;
-    height: 80px;
+    background-color: #1F325B;
+    height: 15vh;
+    display: flex;
+    margin-top: -50px;
+    -webkit-box-align: center;
+    align-items: center;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    position: fixed;
+    right: 0px;
+    z-index: 5;
+    justify-content: space-around;
 }
+
+footer h3, footer h2 {
+    color: white;
+    display: flex;
+}
+
+.footer-redes {
+    display: flex;
+    list-style: none;
+    margin-top: 2vh;
+}
+
+.footer-redes li {
+    margin-right: 2vw;
+}
+
+
+.footer-redes li a img {
+    color: white;
+    width: 100%;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.footer-redes li a img:hover {
+    border-color: #a8adb9;
+}
+
+
 
 
 
