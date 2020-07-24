@@ -1,4 +1,6 @@
-*{
+
+* {
+    font-family: Arial;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +8,19 @@
     text-decoration: none;
 }
 
+
+#nosso-time {
+    display: flex;
+    justify-content: space-around;
+}
+  
+
 body{
     background-image: url(./img/logo1.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 
 #quemsomos{
     display: flex;
@@ -18,8 +28,58 @@ body{
     
 }
 
-p{
-    padding-top: 120px;
+h1 {
+    text-align: center;
+}
+
+#contato {
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+
+
+
+input[type=text] {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    resize: none;
+  }
+
+  textarea {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    resize: none;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bolder;
+    color: #1F325B;
+  }
+  
+  input[type=submit] {
+    background-color: #A8ADB9;
+    font-weight: bolder;
+    color: #1F325B;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #D65312;
+  }
+
+p {
+    padding-top: 5rem;
     width: 50vw;
     font-weight: normal;
     text-align: justify;
@@ -29,7 +89,9 @@ p{
     width: 350px;
     height: 250px;
     margin-top: 60px;
+    margin-right: 20px;
 }
+
 
 header {
     background-color: #a8adb9;
@@ -39,9 +101,15 @@ header {
     align-items: center;
 }
 
+
 section p {
-    padding-top: 100px;
-    width: 50vw;
+    width: 10vw;
+}
+
+#somos {
+    width: 30vw;
+    padding-bottom: 15rem;
+    line-height: 24px;
 }
 
 #h1Header {
