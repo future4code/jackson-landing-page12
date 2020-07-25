@@ -4,16 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: arial;
     text-decoration: none;
 }
-
-
-#nosso-time {
-    display: flex;
-    justify-content: space-around;
-}
-  
 
 body{
     background-image: url(./img/logo1.png);
@@ -21,12 +13,12 @@ body{
     background-size: 100%;
 }
 
-
 #quemsomos{
     display: flex;
     justify-content: center;
-  
+    width: 50vw;
 }
+
 p{
     text-align: justify;
 }
@@ -35,14 +27,16 @@ h1 {
     text-align: center;
 }
 
+#nosso-time {
+    display: flex;
+    justify-content: space-around;
+}
+
 #contato {
     padding-top: 5rem;
     text-align: center;
     padding-bottom: 10rem;
 }
-
-
-
 
 input[type=text] {
     width: 30%;
@@ -50,23 +44,23 @@ input[type=text] {
     border: 1px solid #ccc;
     border-radius: 7px;
     resize: none;
-  }
+}
 
-  textarea {
+textarea {
     width: 30%;
     border: 1px solid #ccc;
     border-radius: 7px;
     resize: none;
-  }
+}
   
-  label {
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     font-weight: bolder;
     color: #1F325B;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #A8ADB9;
     font-weight: bolder;
     color: #1F325B;
