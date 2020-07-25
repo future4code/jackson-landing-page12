@@ -10,8 +10,11 @@
 
 
 #nosso-time {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 33vw);
+    grid-template-rows: 400px;
+    justify-items: center;
+
 }
   
 
@@ -25,8 +28,11 @@ body{
 
 #quemsomos{
     display: flex;
+    width: 90vw;
     justify-content: center;
-    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 70px;
 }
 
 h1 {
@@ -38,9 +44,6 @@ h1 {
     text-align: center;
     padding-bottom: 10rem;
 }
-
-
-
 
 input[type=text] {
     width: 30%;
@@ -80,16 +83,17 @@ input[type=text] {
   }
 
 p {
-    padding-top: 5rem;
-    width: 50vw;
-    font-weight: normal;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-weight: bold;
     text-align: justify;
 }    
 
 #logo{
     width: 350px;
     height: 250px;
-    margin-right: 20px;
+    margin-top: 30px;
+    margin-right: 5px;
 }
 
 
@@ -110,19 +114,6 @@ header {
     z-index: 5;
 }
 
-
-section p {
-    width: 10vw;
-}
-
-#somos {
-    width: 30vw;
-    padding-bottom: 15rem;
-    line-height: 24px;
-    padding-top: 200px;
-    text-align: center;
-    
-}
 
 #h1Header {
     color: white;
@@ -202,15 +193,9 @@ footer h3, footer h2 {
         background-image: none;
     }
 
-    figcaption {    
-        display: flex;
-        justify-content: center;
-    }
     #h1Header {
         font-size: 1rem;
-        margin-right: 2em;
     }
-
     .menu-nav li {
         font-size: 0.7rem
     }
@@ -218,17 +203,16 @@ footer h3, footer h2 {
     #logo {
         display: flex;
         align-self: center;
-        padding-bottom: 50px;
     
     }
 
-    #somos {
-        width: 80vw;
+    #quemsomos {
+        width: 90vw;
         font-size: 14px;
         display: flex;
         align-self: center;
         text-align: center;
-        padding-bottom: 5rem;
+        margin-left: 20px;
     }
 
     #contato {
@@ -245,8 +229,9 @@ footer h3, footer h2 {
 
     }
 
-    section, footer, #nosso-time {
+    section, footer, #nosso-time{
         flex-direction: column;
+
     }
 
     /* Form */
@@ -275,6 +260,8 @@ footer h3, footer h2 {
     }
 
     #nosso-time {
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
