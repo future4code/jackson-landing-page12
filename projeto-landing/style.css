@@ -17,14 +17,15 @@
 body{
     background-image: url(./img/logo1.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    
 }
 
 
 #quemsomos{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 
 h1 {
@@ -87,7 +88,6 @@ p {
 #logo{
     width: 350px;
     height: 250px;
-    margin-top: 60px;
     margin-right: 20px;
 }
 
@@ -118,6 +118,9 @@ section p {
     width: 30vw;
     padding-bottom: 15rem;
     line-height: 24px;
+    padding-top: 200px;
+    text-align: center;
+    
 }
 
 #h1Header {
@@ -184,6 +187,107 @@ footer h3, footer h2 {
 
 .footer-redes li a img:hover {
     border-color: #a8adb9;
+}
+
+#facebook {
+    width: 38px;
+    height: 38px;
+}
+
+@media screen and (max-width: 380px) {
+
+
+    body {
+        background-image: none;
+    }
+
+    figcaption {    
+        display: flex;
+        justify-content: center;
+    }
+    #h1Header {
+        font-size: 1rem;
+        margin-right: 2em;
+    }
+
+    .menu-nav li {
+        font-size: 0.7rem
+    }
+
+    #logo {
+        display: flex;
+        align-self: center;
+        padding-bottom: 50px;
+    
+    }
+
+    #somos {
+        width: 80vw;
+        font-size: 14px;
+        display: flex;
+        align-self: center;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+
+    #contato {
+        display: flex;
+        justify-content: center;
+    }
+
+    #h1Header {
+        display: none;
+    }
+
+    #h2contato {
+        font-size: 12px;
+
+    }
+
+    section, footer, #nosso-time {
+        flex-direction: column;
+    }
+
+    /* Form */
+
+    input[type=text], textarea {
+        width: 80vw;
+    }
+
+    /* Footer */
+
+    footer {
+        height: 25vh;
+        position: relative;
+    }
+
+    .footer-redes {
+        justify-content: center;
+    }
+
+    .footer-redes li {
+        display: flex;
+    }
+
+    .footer-redes li a img{
+        width: 30px;
+    }
+
+    #nosso-time {
+        align-items: center;
+    }
+
+    #facebook {
+        width: 30px;
+        height: 30px;
+    }
+
+    .div-footer {
+        flex-direction: column;
+        display: flex;
+    }
+
+    
 }
 
 
